@@ -1,4 +1,3 @@
--- tworzenie datasetow i tabel, odpalane raz (deploy.sh bigquery)
 -- region europe-central2 = Warszawa
 
 CREATE SCHEMA IF NOT EXISTS bronze OPTIONS (location = 'europe-central2', description = 'surowe dane z api');
